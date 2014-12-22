@@ -18,10 +18,13 @@
   "dependencies": {
     "gulp-util": "~2.2.14",
     "through2": "^0.4.1",
-    "glob" : "^4.0.6"
+    "glob": "^4.0.6"
   },
   "homepage": "https://github.com/stipsan/gulp-md5-assets.git",
   "author": "stipsan",
-  "email" : "stipsan@gmail.com",
-  "license": "MIT"
+  "email": "stipsan@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stipsan/gulp-md5-assets/issues"
+  }
 }
