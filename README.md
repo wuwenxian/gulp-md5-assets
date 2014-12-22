@@ -1,6 +1,15 @@
-# gulp-md5-plus
+# gulp-md5-assets
 
-> md5 plugin for [gulp](https://github.com/wpfpizicai/gulp-md5-plus) ,md5 the static files(eg javascript style image files) ;then replace the filenames in css or the html if needed by passing the file or dir in the second parameter
+This is a fork of [gulp-md5-plus](https://github.com/wpfpizicai/gulp-md5-plus)
+
+The difference between this fork and the original is the result:
+	Sample from a index.html file before transformation:
+	<link rel="stylesheet" type="text/css" href="main.css">
+	gulp-md5-plus
+	<link rel="stylesheet" type="text/css" href="main_afd9d92ebe.css">
+	gulp-md5-assets
+	<link rel="stylesheet" type="text/css" href="main.css?afd9d92ebe">
+	
 
 ## Usage
 
