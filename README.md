@@ -3,13 +3,14 @@
 This is a fork of [gulp-md5-plus](https://github.com/wpfpizicai/gulp-md5-plus)
 
 The difference between this fork and the original is the result:
+```html
 	Sample from a index.html file before transformation:
 	<link rel="stylesheet" type="text/css" href="main.css">
 	gulp-md5-plus
 	<link rel="stylesheet" type="text/css" href="main_afd9d92ebe.css">
 	gulp-md5-assets
 	<link rel="stylesheet" type="text/css" href="main.css?afd9d92ebe">
-	
+```
 
 ## Usage
 
