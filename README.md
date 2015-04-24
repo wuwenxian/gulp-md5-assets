@@ -14,16 +14,16 @@ The difference between this fork and the original is the result:
 
 ## Usage
 
-First, install `gulp-md5-plus` as a development dependency:
+First, install `gulp-md5-assets` as a development dependency:
 
 ```shell
-npm install --save-dev gulp-md5-plus
+npm install --save-dev gulp-md5-assets
 ```
 
 Then, add it to your `gulpfile.js`:
 
 ```javascript
-var md5 = require("gulp-md5-plus");
+var md5 = require("gulp-md5-assets");
 
 gulp.src("./src/*.css")
 	.pipe(md5(10,'./output/index.html'))
