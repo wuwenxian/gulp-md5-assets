@@ -1,6 +1,6 @@
 {
   "name": "gulp-md5-assets",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "md5 the static file and change the names in the quoted html, forked from gulp-md5-plus ",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "gulpplugin"
   ],
   "dependencies": {
-	"escape-string-regexp": "^1.0.5",
+    "escape-string-regexp": "^1.0.5",
     "gulp-util": "~2.2.14",
     "through2": "^0.4.1",
     "glob": "^4.0.6"
